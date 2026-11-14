@@ -1,0 +1,6 @@
+{
+  "name": "GramKart",
+  "description": "Mobile-first demo grocery delivery app with Customer Storefront and Admin Dashboard in English and Hindi.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

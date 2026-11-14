@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+  <meta name="theme-color" content="#15803D" />
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="default" />
+  <meta name="apple-mobile-web-app-title" content="GramKart" />
+  <meta name="description" content="GramKart Demo Grocery Delivery App — Testing / Demo Version" />
+  <title>GramKart — Demo Grocery App</title>
+  <link rel="manifest" href="./manifest.json" />
+  <link rel="icon" type="image/png" sizes="192x192" href="./icons/icon-192.png" />
+  <link rel="icon" type="image/png" sizes="512x512" href="./icons/icon-512.png" />
+  <link rel="apple-touch-icon" sizes="192x192" href="./icons/icon-192.png" />
+  <link rel="stylesheet" href="./styles.css" />
+</head>
+<body>
+  <!-- Branded Splash Screen -->
+  <div id="splash-screen" class="splash-screen" aria-hidden="true">
+    <div class="splash-card">
+      <img src="./icons/icon-192.png" alt="GramKart Logo" class="splash-logo" width="88" height="88" />
+      <h1 class="splash-title">GramKart</h1>
+      <p class="splash-subtitle">ग्रामकार्ट • Fresh Groceries Demo</p>
+      <span class="splash-pill">DEMO VERSION • LOCAL STORAGE</span>
+    </div>
+  </div>
+
+  <!-- Mobile-First App Shell -->
+  <div id="app" class="app-shell"></div>
+
+  <!-- Modal / Dialog Root -->
+  <div id="modal-root"></div>
+
+  <!-- Toast Root -->
+  <div id="toast-root" class="toast-root" aria-live="polite"></div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
